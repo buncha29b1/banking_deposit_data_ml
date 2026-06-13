@@ -1,0 +1,175 @@
+{
+  "hmda": {
+    "dataset": "hmda",
+    "rows_in": 13543542,
+    "rows_out": 13468778,
+    "duplicates_removed": 74764,
+    "values_imputed": {
+      "income": 2190103,
+      "property_value": 3107132,
+      "interest_rate": 4854441,
+      "rate_spread": 7136925,
+      "total_loan_costs": 7404508,
+      "origination_charges": 7337898,
+      "discount_points": 10457361,
+      "lender_credits": 11514980,
+      "loan_term": 474247
+    },
+    "before": {
+      "label": "before",
+      "rows": 13543542,
+      "cols": 22,
+      "null_cells": 68853123,
+      "null_rate": 0.2311,
+      "duplicate_rows": 74764,
+      "duplicate_rate": 0.0055,
+      "mixed_type_columns": [],
+      "mixed_type_rate": 0.0,
+      "health_score": 88.28,
+      "nulls_by_col": {
+        "derived_loan_product_type": 13543542,
+        "lender_credits": 11514980,
+        "discount_points": 10457361,
+        "total_loan_costs": 7404508,
+        "origination_charges": 7337898,
+        "rate_spread": 7136925,
+        "interest_rate": 4854441,
+        "property_value": 3107132,
+        "income": 2190103,
+        "loan_term": 474247,
+        "census_tract": 357917,
+        "county": 303302,
+        "state": 170767
+      }
+    },
+    "after": {
+      "label": "after",
+      "rows": 13468778,
+      "cols": 23,
+      "null_cells": 779776,
+      "null_rate": 0.0025,
+      "duplicate_rows": 0,
+      "duplicate_rate": 0.0,
+      "mixed_type_columns": [],
+      "mixed_type_rate": 0.0,
+      "health_score": 99.87,
+      "nulls_by_col": {
+        "census_tract": 337449,
+        "county": 283730,
+        "state": 158597
+      }
+    },
+    "health_improvement": 11.59,
+    "output_csv": "C:\\Users\\Trong Khoi Van\\Desktop\\Denison\\Banking Deposit Data ML Project\\phase2_cleaned_output\\hmda_cleaned.csv"
+  },
+  "cfpb": {
+    "dataset": "cfpb",
+    "rows_in": 15694521,
+    "rows_out": 15694521,
+    "duplicates_removed": 0,
+    "values_imputed": {},
+    "before": {
+      "label": "before",
+      "rows": 15694521,
+      "cols": 15,
+      "null_cells": 28044453,
+      "null_rate": 0.1191,
+      "duplicate_rows": 0,
+      "duplicate_rate": 0.0,
+      "mixed_type_columns": [
+        "ZIP code"
+      ],
+      "mixed_type_rate": 0.0667,
+      "health_score": 92.71,
+      "nulls_by_col": {
+        "Tags": 14934339,
+        "Consumer complaint narrative": 11901278,
+        "Sub-issue": 911946,
+        "Sub-product": 235275,
+        "State": 60941,
+        "ZIP code": 645,
+        "Company response to consumer": 23,
+        "Issue": 6
+      }
+    },
+    "after": {
+      "label": "after",
+      "rows": 15694521,
+      "cols": 16,
+      "null_cells": 28259080,
+      "null_rate": 0.1125,
+      "duplicate_rows": 0,
+      "duplicate_rate": 0.0,
+      "mixed_type_columns": [
+        "ZIP code"
+      ],
+      "mixed_type_rate": 0.0625,
+      "health_score": 93.12,
+      "nulls_by_col": {
+        "Tags": 14934339,
+        "Consumer complaint narrative": 11901278,
+        "Sub-issue": 911946,
+        "Sub-product": 235275,
+        "event_timestamp": 214627,
+        "State": 60941,
+        "ZIP code": 645,
+        "Company response to consumer": 23,
+        "Issue": 6
+      }
+    },
+    "health_improvement": 0.41,
+    "output_csv": "C:\\Users\\Trong Khoi Van\\Desktop\\Denison\\Banking Deposit Data ML Project\\phase2_cleaned_output\\cfpb_cleaned.csv"
+  },
+  "sec": {
+    "dataset": "sec",
+    "rows_in": 3690955,
+    "rows_out": 3690937,
+    "duplicates_removed": 18,
+    "values_imputed": {
+      "value": 139723
+    },
+    "before": {
+      "label": "before",
+      "rows": 3690955,
+      "cols": 16,
+      "null_cells": 6430685,
+      "null_rate": 0.1089,
+      "duplicate_rows": 18,
+      "duplicate_rate": 0.0,
+      "mixed_type_columns": [],
+      "mixed_type_rate": 0.0,
+      "health_score": 94.56,
+      "nulls_by_col": {
+        "coreg": 3646440,
+        "segments": 1505924,
+        "sic": 759423,
+        "fp": 189684,
+        "fy": 189251,
+        "value": 139723,
+        "period": 240
+      }
+    },
+    "after": {
+      "label": "after",
+      "rows": 3690937,
+      "cols": 17,
+      "null_cells": 6290926,
+      "null_rate": 0.1003,
+      "duplicate_rows": 0,
+      "duplicate_rate": 0.0,
+      "mixed_type_columns": [],
+      "mixed_type_rate": 0.0,
+      "health_score": 94.99,
+      "nulls_by_col": {
+        "coreg": 3646422,
+        "segments": 1505923,
+        "sic": 759406,
+        "fp": 189684,
+        "fy": 189251,
+        "period": 240
+      }
+    },
+    "health_improvement": 0.43,
+    "output_csv": "C:\\Users\\Trong Khoi Van\\Desktop\\Denison\\Banking Deposit Data ML Project\\phase2_cleaned_output\\sec_cleaned.csv"
+  }
+}

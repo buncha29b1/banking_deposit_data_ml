@@ -1,0 +1,2 @@
+# Track packaged Tableau workbooks with Git LFS (binary, >100 MB each for HMDA).
+*.twbx filter=lfs diff=lfs merge=lfs -text

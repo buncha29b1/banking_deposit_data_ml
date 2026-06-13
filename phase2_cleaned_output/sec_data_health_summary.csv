@@ -1,0 +1,3 @@
+stage,rows,null_rate,duplicate_rows,health_score
+before,3690955,0.1089,18,94.56
+after,3690937,0.1003,0,94.99

@@ -1,0 +1,58 @@
+{
+  "hmda": {
+    "dataset": "hmda",
+    "features_used": [
+      "loan_amount",
+      "income",
+      "property_value",
+      "interest_rate",
+      "rate_spread",
+      "total_loan_costs",
+      "origination_charges",
+      "discount_points",
+      "lender_credits",
+      "loan_term"
+    ],
+    "rows": 13468778,
+    "n_anomalies": 134944,
+    "anomaly_rate": 0.01,
+    "score_min": -0.2694,
+    "score_max": 0.2119,
+    "scored_csv": "C:\\Users\\Trong Khoi Van\\Desktop\\Denison\\Banking Deposit Data ML Project\\phase3_anomaly_output\\hmda_deposits_scored.csv",
+    "audit_queue_csv": "C:\\Users\\Trong Khoi Van\\Desktop\\Denison\\Banking Deposit Data ML Project\\phase3_anomaly_output\\hmda_audit_queue_top1pct.csv"
+  },
+  "cfpb": {
+    "dataset": "cfpb",
+    "features_used": [
+      "narrative_len",
+      "has_narrative",
+      "missing_sub-issue",
+      "missing_sub-product",
+      "missing_zip_code",
+      "missing_tags",
+      "days_to_company",
+      "timely_flag"
+    ],
+    "rows": 15694521,
+    "n_anomalies": 444022,
+    "anomaly_rate": 0.0283,
+    "score_min": -0.4109,
+    "score_max": 0.1146,
+    "scored_csv": "C:\\Users\\Trong Khoi Van\\Desktop\\Denison\\Banking Deposit Data ML Project\\phase3_anomaly_output\\cfpb_deposits_scored.csv",
+    "audit_queue_csv": "C:\\Users\\Trong Khoi Van\\Desktop\\Denison\\Banking Deposit Data ML Project\\phase3_anomaly_output\\cfpb_audit_queue_top1pct.csv"
+  },
+  "sec": {
+    "dataset": "sec",
+    "features_used": [
+      "value",
+      "qtrs"
+    ],
+    "rows": 3690937,
+    "n_anomalies": 19082,
+    "anomaly_rate": 0.0052,
+    "score_min": -0.4058,
+    "score_max": 0.1051,
+    "scored_csv": "C:\\Users\\Trong Khoi Van\\Desktop\\Denison\\Banking Deposit Data ML Project\\phase3_anomaly_output\\sec_deposits_scored.csv",
+    "audit_queue_csv": "C:\\Users\\Trong Khoi Van\\Desktop\\Denison\\Banking Deposit Data ML Project\\phase3_anomaly_output\\sec_audit_queue_top1pct.csv"
+  }
+}

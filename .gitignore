@@ -1,0 +1,25 @@
+# ---- Large data & outputs (exceed GitHub's 100 MB file limit) ----
+# Raw source datasets
+CFPB_consumer_complaint_database/
+HMDA_modified_LAR_2025/
+SEC_EDGAR_financial_statement_2026q1/
+
+# Cleaned full datasets (keep only the small summaries)
+phase2_cleaned_output/*.csv
+phase3_anomaly_output/*deposits_scored.csv
+phase3_anomaly_output/*audit_queue*.csv
+
+# Tableau workbooks (*.twbx) are tracked via Git LFS — see .gitattributes
+
+# ---- Keep these small, useful files ----
+!phase2_cleaned_output/*_data_health_summary.csv
+!phase2_cleaned_output/phase2_run_summary.json
+!phase3_anomaly_output/phase3_run_summary.json
+
+# ---- IDE / OS noise ----
+.idea/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
