@@ -92,4 +92,4 @@ Open `phase2_cleaning_engine.ipynb` to run the cleaning engine, then `phase3_ano
 
 ## Author
 
-**Khoi Van** · Denison University · Portfolio project in data analytics and applied machine learning.
+**Khoi Van** · van_k1@denison.edu
